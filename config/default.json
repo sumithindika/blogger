@@ -1,0 +1,7 @@
+{
+  "mongoURI": "mongodb+srv://sumith123:sumith123@schoolapp.mgmixgh.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecret":"mysecrettoken",
+  "githubClientId":"Iv1.748da77391f6cfdd",
+  "githubSecret":"aa99f1bb94514eaa6eb77956bf6063774ced8caa"
+
+}

@@ -1,30 +1,24 @@
 {
-  "name": "blogger",
+  "name": "studentapp",
   "version": "1.0.0",
-  "description": "blogger connect App",
+  "description": "Simple Mern app",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "server": "nodemon server"
+    "start": "start node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sumithindika/blogger.git"
-  },
-  "author": "Sumith indika",
+  "author": "Sumithindika",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sumithindika/blogger/issues"
-  },
-  "homepage": "https://github.com/sumithindika/blogger#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.3.7",
-    "cors": "^2.8.5",
     "express": "^4.18.1",
     "express-validator": "^6.14.2",
+    "gravatar": "^1.8.2",
     "jsonwebtoken": "^8.5.1",
-    "mysql": "^2.18.1",
+    "mongoose": "^6.4.6",
     "request": "^2.88.2"
   },
   "devDependencies": {
