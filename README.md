@@ -1,2 +1,2 @@
 # blogger
- react,node sql,Blogger App
+ react,node express mongo,Blogger App
